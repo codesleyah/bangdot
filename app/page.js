@@ -2,9 +2,13 @@
 
 export default function Home() {
   return (
-     <main className="w-full h-screen bg-white flex items-center justify-center p-12">
-         <div className="grid grid-cols-4 gap-4 w-full h-full">
-            <div className="col-span-3">
+     <main className="w-full h-full bg-white flex items-center justify-center p-12">
+         <div className="flex flex-col md:grid md:grid-cols-4 gap-4 w-full h-full items-center justify-center">
+            <div className="col-span-3 gap-4">
+              <div className="md:hidden">
+              <iframe width="300" height="100" scrolling="no" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" name="spot_id_10002803" src="//a.adtng.com/get/10002803?ata=Sante01"></iframe>
+              </div>
+              
               <video className="w-full" controls>
                 <source
                   src="/videos/vid1.mp4"
